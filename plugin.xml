@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android" id="com.yoco.plugin.custom" version="1.0.0">
+    <name>YocoPlugin</name>
+    <js-module name="YocoPlugin" src="www/YocoPlugin.js">
+        <clobbers target="YocoPlugin" />
+    </js-module>
+    <platform name="ios">
+        <config-file parent="/*" target="config.xml">
+            <feature name="YocoPlugin">
+                <param name="ios-package" value="YocoPlugin" />
+            </feature>
+        </config-file>
+        <source-file src="src/ios/YocoPlugin.m" />
+    </platform>
+</plugin>

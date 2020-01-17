@@ -1,0 +1,21 @@
+{
+  "name": "yoco",
+  "version": "1.0.0",
+  "description": "This plugin allows you to process payments to the Yoco SDK",
+  "cordova": {
+    "id": "com.yoco.plugin.custom",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "author": "Mark Raa",
+  "license": "ISC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
